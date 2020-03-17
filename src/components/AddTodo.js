@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useDispatch } from '@wordpress/data';
 
 const AddTodo = () => {
 	const { addTodo } = useDispatch( 'todo' );
